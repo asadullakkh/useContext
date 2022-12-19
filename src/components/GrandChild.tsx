@@ -16,6 +16,7 @@ const GrandChild = () => {
     <div>
       <h2>GrandChild</h2>
       <form onSubmit={onSubmit}>
+        <span> add todo</span>
         <input
           value={input}
           type="text"
